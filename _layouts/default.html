@@ -18,6 +18,10 @@
   {% for js in page.js %}
   <script src="{{ js | prepend: site.baseurl }}"></script>
   {% endfor %}
+
+  {% for js in page.js.external %}
+  <script src="{{ js | prepend: site.baseurl }}"></script>
+  {% endfor %}
   </body>
 
 </html>
