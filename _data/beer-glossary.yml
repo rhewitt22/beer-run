@@ -1,0 +1,77 @@
+- name: Sweetwater 420
+  brewery: Sweetwater Brewing Company
+  location: "Atlanta, GA"
+  style: Pale Ale
+  abv: 5.7
+
+- name: Sweetwater IPA
+  brewery: Sweetwater Brewing Company
+  location: "Atlanta, GA"
+  style: Imperial Pale Ale
+  abv: 6.3
+
+- name: Sweetwater Hop Hash
+  brewery: Sweetwater Brewing Company
+  location: "Atlanta, GA"
+  style: Imperial Pale Ale
+  abv: 7.8
+
+- name: Drafty Kilt
+  brewery: Monday Night Brewing
+  location: "Atlanta, GA"
+  style: Scotch Ale
+  abv: 7.2
+
+- name: Boddingtons Pub Ale
+  brewery: Boddingtons
+  location: "Manchester, England"
+  style: English Pub Ale
+  abv: 4.7
+
+- name: Laguanitas IPA
+  brewery: Laguanitas Brewing Company
+  location: "Petaluma, CA"
+  style: Imperial Pale Ale
+  abv: 6.2
+
+- name: Dogfish Head 60 Minute IPA
+  brewery: Dogfish Head Brewery
+  location: "Milton, DE"
+  style: Imperial Pale Ale
+  abv: 6.0
+
+- name: Left Hand Milk Stout
+  brewery: Left Hand Brewing Company
+  location: "Longmont, CO"
+  style: Milk Stout
+  abv: 6.0
+
+- name: Big Eye IPA
+  brewery: Ballast Point Brewing Company
+  location: "San Diego, CA"
+  style: Imperial Pale Ale
+  abv: 7.0
+
+- name: Two Hearted Ale
+  brewery: "Bell's Brewery, Inc."
+  location: "Kalamazoo, MI"
+  style: Imperial Pale Ale
+  abv: 7.0
+
+- name: Mugshot IPA
+  brewery: Jailhouse Brewing Company
+  location: "Hampton, GA"
+  style: Imperial Pale Ale
+  abv: 6.7
+
+- name: Guiness Stout
+  brewery: Guiness Ltd.
+  location: "Dublin, Ireland"
+  style: Stout
+  abv: 4.2
+
+- name: Ranger IPA
+  brewery: New Belgium Brewing
+  location: "Fort Collins, CO"
+  style: Imperial Pale Ale
+  abv: 6.5

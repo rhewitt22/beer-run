@@ -1,0 +1,40 @@
+---
+layout: default
+title: Beers
+navigation: true
+js: 
+  - "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"
+  - /js/beerView.js
+---
+
+<form class="select-filter">
+  <label for="filter-beers"></label>
+  <select name="filter-beers" id="">
+    <option value="recent">Most Recent</option>
+    <option value="abv-high">ABV High to Low</option>
+    <option value="abv-low">ABV Low to High</option>
+    <option value="style">Style</option>
+    <option value="a-to-z">A to Z</option>
+    <option value="z-to-a">Z to A</option>
+
+  </select>
+</form>
+
+<div class="beers"></div>
+
+
+{% raw %}
+<script id="beer-template" type="text/x-handlebars-template">​
+<div class="beer-container">
+  <ul class="activity-list">
+  {{#each this}}
+    <li class="activity-item {{styleClass}}">
+      <h3>{{name}}</h3>
+      <p>{{brewery}}, {{location}}</p>
+      <p>{{style}}, {{abv}}%</p>
+    </li>
+  {{/each}}
+  </ul>
+</div>
+​</script>
+{% endraw %}

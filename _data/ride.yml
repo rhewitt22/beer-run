@@ -1,0 +1,29 @@
+- date: 1/19/15
+  strava: "https://www.strava.com/activities/243353912"
+  distance: 5
+  type: city
+  bike: marin
+
+- date: 1/19/15
+  strava: "https://www.strava.com/activities/243311376"
+  distance: 1.6
+  type: city
+  bike: marin
+
+- date: 1/19/15
+  strava: "https://www.strava.com/activities/243293612"
+  distance: 1.3
+  type: city
+  bike: marin
+
+- date: 1/19/15
+  strava: "https://www.strava.com/activities/243279601"
+  distance: 3.6
+  type: city
+  bike: marin
+
+- date: 1/19/15
+  strava: "https://www.strava.com/activities/243233941"
+  distance: 5.5
+  type: city
+  bike: marin

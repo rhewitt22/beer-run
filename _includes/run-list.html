@@ -1,0 +1,19 @@
+<h2 class="statistics-header miles-run"></h2>
+<ul class="activity-list">
+{% for run in site.data.run %}
+{% if run.date != runDate %}
+<li class="run-date">{{run.date}}</li>
+{% endif %}
+  <li class="activity-item">
+    {% if run.strava and run.location %} 
+    <a href="{{run.strava}}"><h3>{{run.location}}</h3></a>
+    {% endif %}
+    {% if run.strava == false and run.location %}
+    <h3>{{run.location}}</h3>
+    {% endif %}
+    <p class="run-distance">{{run.distance}} mile{% if run.distance > 1 %}s{% endif %}</p>
+    <div class="run-type {{run.type}}"></div>
+  </li>
+  {% capture runDate %}{{run.date}}{% endcapture %}
+{% endfor %}
+</ul>

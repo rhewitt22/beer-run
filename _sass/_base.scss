@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: $open-sans;
+  background-image: url(../images/fabric_of_squares_gray.png)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $roboto-slab;
+}
+
+a {
+  color: black;
+
+  &:visited {
+    color: black;
+  }
+
+  &:active {
+    color: lighten(black, 15);
+  }
+}
+
+.site-wrapper {
+  padding: 3%;
+}
+
+.activities {
+  width: 100%;
+}
+
+.anchor-links {
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  a {
+    margin-left: 0.5em;
+  }
+  @media (min-width: 600px) {
+    display: none;
+  }
+}

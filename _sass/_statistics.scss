@@ -1,0 +1,27 @@
+.statistics {
+  text-align: center;
+  @media (min-width: 600px) {
+    display: none;
+  }
+}
+
+.stat {
+  display: inline-block;
+  margin-left: 1em;
+  margin-bottom: 0;
+
+  &:first-of-type {
+    margin-left: 0;
+  }
+}
+
+.statistics-header {
+  display: none;
+
+  @media (min-width: 600px) {
+    display: block;
+    margin: 1em;
+    font-size: 1.25em;
+    text-align: center;
+  }
+}

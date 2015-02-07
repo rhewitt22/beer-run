@@ -1,0 +1,41 @@
+header {
+  height: 50px;
+  margin-bottom: 1em;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.site-title {
+  float: left;
+  margin-top: 0;
+
+  a {
+    color: black;
+  }
+}
+
+.navigation-menu {
+  overflow: auto;
+}
+
+.navigation-list {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-item {
+  display: inline-block;
+  height: 25px;
+  margin: 0 0.5em;
+  font-weight: bold;
+
+  a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

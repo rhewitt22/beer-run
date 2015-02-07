@@ -1,0 +1,31 @@
+.run-type,
+.ride-type {
+  width: 50px;
+  height: 50px;
+  float: right;
+  background-repeat: no-repeat;
+}
+.no-svg .run-type.treadmill {
+  background-image: url('/images/svg/treadmill.png');
+}
+
+.svg .run-type.treadmill {
+  background-image: url('/images/svg/treadmill.svg');
+}
+
+.no-svg .run-type.city,
+.no-svg .ride-type.city {
+  background-image: url('/images/svg/city.png');
+}
+
+.svg .run-type.city,
+.svg .ride-type.city {
+  background-image: url('/images/svg/city.svg');
+}
+.svg .ride-type.mountain-bike {
+  background-image: url('/images/svg/mountain-bike.png');
+}
+
+.svg .ride-type.mountain-bike {
+  background-image: url('/images/svg/mountain-bike.svg');
+}

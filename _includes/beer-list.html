@@ -1,0 +1,19 @@
+<h2 class="statistics-header">{% for beer in site.data.beer %}{% if forloop.last %}Beers Crushed: {{ forloop.index }}{% endif %}{% endfor %}</h2>
+<ul class="activity-list">
+{% for beer in site.data.beer reversed %}
+  {% capture beerName %}{{beer.name}}{% endcapture %}
+  {% if beer.date != beerDate %}
+  <li class="beer-date">{{beer.date}}</li>
+  {% endif %}
+  {% for beerInfo in site.data.beer-glossary %}
+    {% if beerInfo.name == beerName %}
+    <li class="activity-item {{ beerInfo.style | slugify }}">
+      <h3>{{beer.name}}</h3>
+      <p>{{beerInfo.brewery}}, {{beerInfo.location}}</p>
+      <p>{{beerInfo.style}}, {{beerInfo.abv}}%</p>
+    </li>
+    {% endif %}
+  {% endfor %}
+  {% capture beerDate %}{{beer.date}}{% endcapture %}
+{% endfor %}
+</ul>

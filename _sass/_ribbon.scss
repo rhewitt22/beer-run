@@ -1,0 +1,108 @@
+.award-ribbon {
+  font-family: Helvetica, Arial, sans-serif;
+  position: relative;
+  margin: 10px auto 80px;
+  height: 100px;
+  width: 100px;
+
+  /* make it a circle */
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+
+  /* some rendering stuff */
+  -moz-background-clip: padding-box;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+
+  /* border box */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* background color/gradient/whatever */
+  background: #396ea3;
+  background: -moz-linear-gradient(45deg, #326190 19%, #396ea3 36%, #407bb6 62%, #396ea3 96%);
+  background: -webkit-linear-gradient(45deg, #326190 19%, #396ea3 36%, #407bb6 62%, #396ea3 96%);
+  background: linear-gradient(45deg, #326190 19%, #396ea3 36%, #407bb6 62%, #396ea3 96%);
+
+  /* adding dimension */
+  -webkit-box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.2), 0px 0px 0px 10px #305c89, 0px 10px 30px 0px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.2), 0px 0px 0px 10px #305c89, 0px 10px 30px 0px rgba(0, 0, 0, 0.9);
+  box-shadow: inset 0px 0px 100px rgba(0, 0, 0, 0.2), 0px 0px 0px 10px #305c89, 0px 10px 30px 0px rgba(0, 0, 0, 0.9);
+}
+
+
+/*
+ * text element
+ */
+
+.award-ribbon .award-ribbon-text {
+
+  padding: 15px;
+  display: block;
+  width: 100%;
+  
+  /* vertical centering */
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+  /* border box */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+  /* text styling */
+  color: #ffffff;
+  font-size: 1.6em;
+  line-height: 1;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px -1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+/*
+ * inner and outer ribbon pseudo elements
+ */
+
+.award-ribbon:before,
+.award-ribbon:after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  z-index: -1;
+  /* length of the ribbon */
+  padding-top: 80px;
+}
+
+
+/* 
+ * inner ribbon
+ */
+
+.award-ribbon:before {
+  top: 50px;
+  left: 10px;
+  border-color: transparent #386b9f transparent #326190;
+  border-width: 0px 40px 17px;
+  border-style: solid;
+}
+
+
+/* 
+ * outer ribbon (edges)
+ */
+
+.award-ribbon:after {
+  top: 45px;
+  left: 15px;
+  border-color: transparent #3e78b2 transparent #396ea3;
+  border-width: 0px 35px 15px;
+  border-style: solid;
+}

@@ -1,0 +1,30 @@
+---
+layout: default
+js:
+ - js/beerRun.js
+---
+<p>My New Year's resolution is to run more miles than beers drank in 2015.</p>
+
+<div class="anchor-links">
+  <a href="#beer-activities">Beers</a>
+  <a href="#run-activities">Runs</a>
+  <a href="#ride-activities">Rides</a>
+</div>
+
+<div class="statistics">
+  <h3 class="stat beers-drank">{% for beer in site.data.beer %}{% if forloop.last %}Beers Crushed: {{ forloop.index }}{% endif %}{% endfor %}</h3>
+  <h3 class="stat miles-run"></h3>
+  <h3 class="stat miles-ridden"></h3>
+</div>
+
+<div class="activities">
+  <div id="beer-activities" class="beers activity-container">
+    {% include beer-list.html %}
+  </div><!--
+  --><div id="run-activities"  class="runs activity-container">
+    {% include run-list.html %}
+  </div><!-- 
+  --><div id="ride-activities"  class="rides activity-container">
+    {% include ride-list.html %}
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<h2 class="statistics-header miles-ridden"></h2>
+<ul class="activity-list">
+{% for ride in site.data.ride reversed %}
+{% if ride.date != rideDate %}
+<li class="ride-date">{{ride.date}}</li>
+{% endif %}
+  <li class="activity-item">
+    <h3>{{ride.location}}</h3>
+    <p><a href="{{ride.strava}}">{{ride.distance}} mile{% if ride.distance > 1 %}s{% endif %}</a></p>
+    <div class="ride-type {{ride.type}}"></div>
+  </li>
+  {% capture rideDate %}{{ride.date}}{% endcapture%}
+{% endfor %}
+</ul>

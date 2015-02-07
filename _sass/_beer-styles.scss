@@ -1,0 +1,27 @@
+.imperial-pale-ale {
+  background-color: #c78732;
+  background-image: linear-gradient(to right, #c78732, lighten(#c78732, 20), #c78732);
+}
+
+.pale-ale,
+.english-pub-ale {
+  background-color: #ef9f38;
+  background-image: linear-gradient(to right, #ef9f38, lighten(#ef9f38, 20), #ef9f38);
+}
+
+.milk-stout,
+.oatmeal-stout,
+.stout,
+.imperial-stout,
+.russian-stout {
+  color: white;
+  background-color: #141412;
+  background-image: linear-gradient(to right, #141412, lighten(#141412, 20), #141412);
+  
+}
+
+.scotch-ale {
+  color: white;
+  background-color: #772004;
+  background-image: linear-gradient(to right, #772004, lighten(#772004, 20), #772004);
+}
