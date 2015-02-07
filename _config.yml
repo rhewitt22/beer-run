@@ -1,10 +1,9 @@
 # Site settings
 title: Beer Run
 email: royhewitt07@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # Beer Run is an app that will help track my progress 
+towards my New Years resolution.  The goal is to run more miles than
+beers drank in 2015.
 baseurl: "/beer-run" # the subpath of your site, e.g. /blog/
 url: "http://rhewitt22.github.io" # the base hostname & protocol for your site
 twitter_username: r0yhewitt
