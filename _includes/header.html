@@ -1,10 +1,10 @@
 <header>
-  <h1 class="site-title"><a href="/">Beer Run</a></h1>
+  <h1 class="site-title"><a href="{{ '/' | prepend: site.baseurl }}">Beer Run</a></h1>
   <nav class="navigation-menu">
     <ul class="navigation-list">
     {% for page in site.pages %}
     {% if page.navigation == true %}
-      <li class="navigation-item"><a href="{{page.url}}">{{page.title}}</a></li>
+      <li class="navigation-item"><a href="{{ page.url | prepend: site.baseurl }}">{{page.title}}</a></li>
     {% endif %}
     {% endfor %}
     </ul>
