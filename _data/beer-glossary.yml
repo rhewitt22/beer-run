@@ -75,3 +75,21 @@
   location: "Fort Collins, CO"
   style: Imperial Pale Ale
   abv: 6.5
+  
+- name: Sierra Nevada Pale Ale
+  brewery: Sierra Nevada Brewing Company
+  location: "Chico, CA"
+  style: Pale Ale
+  abv: 5.6
+ 
+- name: Grapefruit Sculpin
+  brewery: Ballast Point Brewing Company
+  location: "San Diego, CA"
+  style: Imperial Pale Ale
+  abv: 7
+  
+- name: OMB Dunkel Lager
+  brewery: The Olde Mecklenburg Brewery
+  location: "Charlotte, NC"
+  style: Dunkel
+  abv: 4.9
