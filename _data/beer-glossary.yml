@@ -97,17 +97,17 @@
 - name: Green Flash West Coast IPA
   brewery: Green Flash Brewing Company
   location: San Diego, CA
-  style: IPA
+  style: Imperial Pale Ale
   abv: 8.1
   
 - name: Hoplanta
   brewery: Red Brick Brewing Company
   location: Atlanta, GA
-  style: IPA
+  style: Imperial Pale Ale
   abv: 6.7
 
 - name: Stone IPA
   brewery: Stone Brewing Company
   location: Escondido, CA
-  style: IPA
+  style: Imperial Pale Ale
   abv: 6.9
