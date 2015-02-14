@@ -99,3 +99,15 @@
   location: San Diego, CA
   style: IPA
   abv: 8.1
+  
+- name: Hoplanta
+  brewery: Red Brick Brewing Company
+  location: Atlanta, GA
+  style: IPA
+  abv: 6.7
+
+- name: Stone IPA
+  brewery: Stone Brewing Company
+  location: Escondido, CA
+  style: IPA
+  abv: 6.9
