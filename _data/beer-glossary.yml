@@ -93,3 +93,9 @@
   location: "Charlotte, NC"
   style: Dunkel
   abv: 4.9
+
+- name: Green Flash West Coast IPA
+  brewery: Green Flash Brewing Company
+  location: San Diego, CA
+  style: IPA
+  abv: 8.1
