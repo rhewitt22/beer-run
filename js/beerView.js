@@ -54,7 +54,6 @@
         break;
       case "recent":
         sortField('recent', true);
-        console.log(beers);
         break;
     }
     $beers.html(beerTemplate(beers));
@@ -75,7 +74,7 @@
       beer.styleClass = beerInfo[0].style.replace(/\s+/g, '-').toLowerCase();
     });
     // Show in reverse chronological order
-    $beers.append(beerTemplate(beers.reverse()));
+    $beers.append(beerTemplate(beers));
     return beers;
   }
 

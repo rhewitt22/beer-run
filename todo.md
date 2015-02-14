@@ -16,6 +16,7 @@ published: false
 - Statistics
   - Favorite beers
   - Favorite styles
+  - Beers by state (map)
 
 
 ## Runs Page

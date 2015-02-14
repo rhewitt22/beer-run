@@ -1,6 +1,6 @@
 <h2 class="statistics-header">{% for beer in site.data.beer %}{% if forloop.last %}Beers Drank: {{ forloop.index }}{% endif %}{% endfor %}</h2>
 <ul class="activity-list">
-{% for beer in site.data.beer reversed %}
+{% for beer in site.data.beer %}
   {% capture beerName %}{{beer.name}}{% endcapture %}
   {% if beer.date != beerDate %}
   <li class="beer-date">{{beer.date}}</li>
