@@ -1,3 +1,33 @@
+- name: Boulevard Chocolate Ale
+  brewery: Boulevard Brewing Company
+  location: "Kansas City, MO"
+  style: American Strong Ale
+  abv: 9.1
+
+- name: Highland Black Mocha Mint
+  brewery: Highland Brewing
+  location: "Asheville, NC"
+  style: Stout
+  abv: 5.5
+
+- name: "Lagunitas Scarecity #2"
+  brewery: Laguanitas Brewing Company
+  location: "Petaluma, CA"
+  style: Imperial Porter
+  abv: 10.2
+
+- name: Hopslam Ale
+  brewery: "Bell's Brewery, Inc."
+  location: "Kalamazoo, MI"
+  style: Imperial Pale Ale
+  abv: 10.0
+
+- name: Sapporo
+  brewery: Sapporo Breweries Ltd.
+  location: "Tokyo, Japan"
+  style: Japanese Rice Lager
+  abv: 5
+
 - name: Sweetwater 420
   brewery: Sweetwater Brewing Company
   location: "Atlanta, GA"
