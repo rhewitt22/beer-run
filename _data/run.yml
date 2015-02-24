@@ -1,3 +1,11 @@
+- date: 2/23/15
+  distance: 2
+  time: 17:30
+  type: treadmill
+  shoes:
+    brand: Merrel
+    model: Trail shoe
+
 - date: 2/22/15
   distance: 4
   time: 35:00
