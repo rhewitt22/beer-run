@@ -1,3 +1,9 @@
+- name: Grolsch
+  brewery: Grolsch Brouwerijstraat
+  location: Enschede, Netherlands
+  style: Lager
+  abv: 5
+
 - name: Boulevard Chocolate Ale
   brewery: Boulevard Brewing Company
   location: "Kansas City, MO"
