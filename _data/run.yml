@@ -1,3 +1,11 @@
+- date: 3/11/15
+  distance: 3
+  time: 26:40
+  type: treadmill
+  shoes:
+    brand: Nike
+    model: Structure 15
+
 - date: 2/28/15
   distance: 1.25
   time: 11:00
