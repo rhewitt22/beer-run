@@ -1,3 +1,9 @@
+- name: Night on Ponce
+  brewery: Three Taverns Craft Brewery
+  location: Atlanta, Georgia
+  style: Imperial Pale Ale
+  abv: 7.5
+
 - name: Grolsch
   brewery: Grolsch Brouwerijstraat
   location: Enschede, Netherlands
