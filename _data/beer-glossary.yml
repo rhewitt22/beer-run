@@ -1,3 +1,9 @@
+- name: Torpedo
+  brewery: Sierra Nevada Brewing Company
+  location: "Chico, CA"
+  style: Imperial Pale Ale
+  abv: 7.2
+
 - name: Night on Ponce
   brewery: Three Taverns Craft Brewery
   location: Atlanta, Georgia
