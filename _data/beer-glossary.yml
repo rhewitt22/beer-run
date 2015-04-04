@@ -1,3 +1,9 @@
+- name: Sculpin
+  brewery: Ballast Point Brewing Company
+  location: "San Diego, CA"
+  style: Imperial Pale Ale
+  abv: 7
+
 - name: Torpedo
   brewery: Sierra Nevada Brewing Company
   location: "Chico, CA"
