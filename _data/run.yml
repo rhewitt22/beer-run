@@ -1,3 +1,11 @@
+- date: 4/16/15
+  distance: 2
+  time: 16:54
+  type: tredmill
+  shoes:
+    brand: Nike
+    model: Structure 15
+
 - date: 4/4/15
   distance: 3.8
   type: city
