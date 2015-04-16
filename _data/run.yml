@@ -6,6 +6,15 @@
     brand: Nike
     model: Structure 15
 
+- date: 4/8/15
+  distance: 2.5
+  type: city
+  location: "Atlanta, GA"
+  strava: https://www.strava.com/activities/281754501
+  shoes:
+    brand: Nike
+    model: Structure 15
+
 - date: 4/4/15
   distance: 3.8
   type: city
