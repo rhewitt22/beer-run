@@ -7,8 +7,8 @@
 - name: Recreationale
   brewery: Terrapin Beer Company
   location: "Athens, GA"
-  style: Imperial Pale Ale
-  abv: 7
+  style: Pale Ale
+  abv: 4.7
 
 - name: Sculpin
   brewery: Ballast Point Brewing Company
