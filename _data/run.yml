@@ -1,3 +1,11 @@
+- date: 4/23/15
+  distance: 3.9
+  type: city
+  location: "Atlanta, GA"
+  shoes:
+    brand: Nike
+    model: Structure 15
+
 - date: 4/20/15
   distance: 4
   type: city
