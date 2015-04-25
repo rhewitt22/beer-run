@@ -1,3 +1,17 @@
+- date: 4/25/15
+  distance: 3.1
+  type: city
+  location: "Brookhaven, GA"
+  shoes:
+    brand: Merrel
+
+- date: 4/24/15
+  distance: 1
+  type: city
+  location: "Atlanta, GA"
+  shoes:
+    brand: Merrel
+
 - date: 4/23/15
   distance: 3.9
   type: city
