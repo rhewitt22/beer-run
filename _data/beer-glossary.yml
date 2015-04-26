@@ -1,3 +1,9 @@
+- name: Hop Hunter
+  brewery: Sierra Nevada Brewing Company
+  location: "Chico, CA"
+  style: Imperial Pale Ale
+  abv: 6.2
+
 - name: Hi-5
   brewery: Terrapin Beer Company
   location: "Athens, GA"
