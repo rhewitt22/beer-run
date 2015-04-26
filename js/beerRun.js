@@ -6,6 +6,7 @@
   
   milesRan(runs);
   milesRidden(rides);
+  updateProgress(runs);
 })();
 
 function milesRan(runs) {
@@ -28,4 +29,18 @@ function milesRidden(rides) {
   });
   $milesRidden.text("Miles Ridden: " + (Math.round(totalMiles * 10) / 10));
   return totalMiles;
+}
+
+function updateProgress(runs) {
+  var milesThisWeek = 0,
+      $progress = $('progress'),
+      sunday = moment().weekday(0);
+
+  $.each(runs, function(index, item) {
+    var date = moment(item.date);
+    if (date.isAfter(sunday)) {
+      milesThisWeek += item.distance;
+    }
+  });
+  $progress.attr('value', milesThisWeek);
 }

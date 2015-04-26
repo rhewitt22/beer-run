@@ -10,5 +10,8 @@ url: "http://rhewitt22.github.io" # the base hostname & protocol for your site
 twitter_username: r0yhewitt
 github_username:  rhewitt22
 
+# Weekly run goal in miles
+goal: 12
+
 # Build settings
 markdown: kramdown

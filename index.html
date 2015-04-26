@@ -2,10 +2,16 @@
 layout: default
 js: 
   - /js/beerRun.js
-published: true
+externalJs:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js'
 ---
 
 <p>My New Year's resolution is to run more miles than beers drank in 2015.</p>
+
+<div class="weekly-goal">
+  <h3>Weekly Goal: {{ site.goal }} miles</h3>
+  <progress max="{{ site.goal }}" value="0"></progress>
+</div>
 
 <div class="anchor-links">
   <a href="#beer-activities">Beers</a>
