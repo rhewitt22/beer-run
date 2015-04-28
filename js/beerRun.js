@@ -34,6 +34,7 @@ function milesRidden(rides) {
 function updateProgress(runs) {
   var milesThisWeek = 0,
       $progress = $('progress'),
+      $mileage = $('.mileage'),
       sunday = moment().weekday(0);
 
   $.each(runs, function(index, item) {
@@ -43,4 +44,5 @@ function updateProgress(runs) {
     }
   });
   $progress.attr('value', milesThisWeek);
+  $mileage.text(milesThisWeek);
 }
