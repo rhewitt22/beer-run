@@ -5,7 +5,7 @@ description: >
   Beer Run is an app that will help track my progress towards 
   my New Years resolution.  The goal is to run more miles than
   beers drank in 2015.
-baseurl: "/beer-run" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://rhewitt22.github.io" # the base hostname & protocol for your site
 twitter_username: r0yhewitt
 github_username:  rhewitt22
