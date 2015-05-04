@@ -1,3 +1,11 @@
+- name: Hopsecutioner
+  brewery: Terrapin Beer Company
+  location:
+    city: Athens
+    state: Georgia
+  style: Imperial Pale Ale
+  abv: 7.3
+
 - name: Hop Hunter
   brewery: Sierra Nevada Brewing Company
   location: 
