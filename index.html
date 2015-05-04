@@ -6,34 +6,33 @@ externalJs:
   - "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"
 published: true
 ---
-
 <p>My New Year's resolution is to run more miles than beers drank in 2015.</p>
 
-<div class="weekly-goal">
-  <h3>Weekly Goal: <sup class="mileage">0</sup>&#8260;<sub>{{ site.goal }}</sub> miles</h3>
-  <progress max="{{ site.goal }}" value="0"></progress>
-</div>
-
-<div class="anchor-links">
-  <a href="#beer-activities">Beers</a>
-  <a href="#run-activities">Runs</a>
-  <a href="#ride-activities">Rides</a>
-</div>
-
-<div class="statistics">
-  <h3 class="stat beers-drank">{% for beer in site.data.beer %}{% if forloop.last %}Beers Drank: {{ forloop.index }}{% endif %}{% endfor %}</h3>
-  <h3 class="stat miles-run"></h3>
-  <h3 class="stat miles-ridden"></h3>
-</div>
-
-<div class="activities">
-  <div id="beer-activities" class="beers activity-container">
-    {% include beer-list.html %}
-  </div><!--
-  --><div id="run-activities"  class="runs activity-container">
-    {% include run-list.html %}
-  </div><!-- 
-  --><div id="ride-activities"  class="rides activity-container">
-    {% include ride-list.html %}
+  <div class="weekly-goal">
+    <h3>Weekly Goal: <sup class="mileage">0</sup>&#8260;<sub>{{ site.goal }}</sub> miles</h3>
+    <progress max="{{ site.goal }}" value="0"></progress>
   </div>
-</div>
+
+  <div class="anchor-links">
+    <a href="#beer-activities">Beers</a>
+    <a href="#run-activities">Runs</a>
+    <a href="#ride-activities">Rides</a>
+  </div>
+
+  <div class="statistics">
+    <h3 class="stat beers-drank">{% for beer in site.data.beer %}{% if forloop.last %}Beers Drank: {{ forloop.index }}{% endif %}{% endfor %}</h3>
+    <h3 class="stat miles-run"></h3>
+    <h3 class="stat miles-ridden"></h3>
+  </div>
+
+  <div class="activities">
+    <div id="beer-activities" class="beers activity-container">
+      {% include beer-list.html %}
+    </div><!--
+    --><div id="run-activities"  class="runs activity-container">
+      {% include run-list.html %}
+    </div><!-- 
+    --><div id="ride-activities"  class="rides activity-container">
+      {% include ride-list.html %}
+    </div>
+  </div>
