@@ -1,185 +1,247 @@
 - name: Hop Hunter
   brewery: Sierra Nevada Brewing Company
-  location: "Chico, CA"
+  location: 
+    city: Chico
+    state: California
   style: Imperial Pale Ale
   abv: 6.2
 
 - name: Hi-5
   brewery: Terrapin Beer Company
-  location: "Athens, GA"
+  location:
+    city: Athens
+    state: Georgia
   style: Imperial Pale Ale
   abv: 5.9
 
 - name: Recreationale
   brewery: Terrapin Beer Company
-  location: "Athens, GA"
+  location:
+    city: Athens
+    state: Georgia
   style: Pale Ale
   abv: 4.7
 
 - name: Sculpin
   brewery: Ballast Point Brewing Company
-  location: "San Diego, CA"
+  location:
+    city: San Diego
+    state: California
   style: Imperial Pale Ale
   abv: 7
 
 - name: Torpedo
   brewery: Sierra Nevada Brewing Company
-  location: "Chico, CA"
+  location: 
+    city: Chico
+    state: California
   style: Imperial Pale Ale
   abv: 7.2
 
 - name: Night on Ponce
   brewery: Three Taverns Craft Brewery
-  location: Atlanta, Georgia
+  location:
+    city: Atlanta
+    state: Georgia
   style: Imperial Pale Ale
   abv: 7.5
 
 - name: Grolsch
   brewery: Grolsch Brouwerijstraat
-  location: Enschede, Netherlands
+  location: 
+    city: Enschede
+    state: Netherlands
   style: Lager
   abv: 5
 
 - name: Boulevard Chocolate Ale
   brewery: Boulevard Brewing Company
-  location: "Kansas City, MO"
+  location:
+    city: Kansas City
+    state: Missouri
   style: American Strong Ale
   abv: 9.1
 
 - name: Highland Black Mocha Mint
   brewery: Highland Brewing
-  location: "Asheville, NC"
+  location:
+    city: Asheville
+    state: North Carolina
   style: Stout
   abv: 5.5
 
 - name: "Lagunitas Scarecity #2"
   brewery: Laguanitas Brewing Company
-  location: "Petaluma, CA"
+  location:
+    city: Petaluma
+    state: California
   style: Imperial Porter
   abv: 10.2
 
 - name: Hopslam Ale
   brewery: "Bell's Brewery, Inc."
-  location: "Kalamazoo, MI"
+  location:
+    city: Kalamazoo
+    state: Michigan
   style: Imperial Pale Ale
   abv: 10.0
 
 - name: Sapporo
   brewery: Sapporo Breweries Ltd.
-  location: "Tokyo, Japan"
+  location:
+    city: Tokyo
+    state: Japan
   style: Japanese Rice Lager
   abv: 5
 
 - name: Sweetwater 420
   brewery: Sweetwater Brewing Company
-  location: "Atlanta, GA"
+  location:
+    city: Atlanta
+    state: Georgia
   style: Pale Ale
   abv: 5.7
 
 - name: Sweetwater IPA
   brewery: Sweetwater Brewing Company
-  location: "Atlanta, GA"
+  location:
+    city: Atlanta
+    state: Georgia
   style: Imperial Pale Ale
   abv: 6.3
 
 - name: Sweetwater Hop Hash
   brewery: Sweetwater Brewing Company
-  location: "Atlanta, GA"
+  location:
+    city: Atlanta
+    state: Georgia
   style: Imperial Pale Ale
   abv: 7.8
 
 - name: Drafty Kilt
   brewery: Monday Night Brewing
-  location: "Atlanta, GA"
+  location:
+    city: Atlanta
+    state: Georgia
   style: Scotch Ale
   abv: 7.2
 
 - name: Boddingtons Pub Ale
   brewery: Boddingtons
-  location: "Manchester, England"
+  location:
+    city: Manchester
+    state: England
   style: English Pub Ale
   abv: 4.7
 
 - name: Laguanitas IPA
   brewery: Laguanitas Brewing Company
-  location: "Petaluma, CA"
+  location:
+    city: Petaluma
+    state: California
   style: Imperial Pale Ale
   abv: 6.2
 
 - name: Dogfish Head 60 Minute IPA
   brewery: Dogfish Head Brewery
-  location: "Milton, DE"
+  location:
+    city: Milton
+    state: Delaware
   style: Imperial Pale Ale
   abv: 6.0
 
 - name: Left Hand Milk Stout
   brewery: Left Hand Brewing Company
-  location: "Longmont, CO"
+  location:
+    city: Longmont
+    state: Colorado
   style: Milk Stout
   abv: 6.0
 
 - name: Big Eye IPA
   brewery: Ballast Point Brewing Company
-  location: "San Diego, CA"
+  location:
+    city: San Diego
+    state: California
   style: Imperial Pale Ale
   abv: 7.0
 
 - name: Two Hearted Ale
   brewery: "Bell's Brewery, Inc."
-  location: "Kalamazoo, MI"
+  location:
+    city: Kalamazoo
+    state: Michigan
   style: Imperial Pale Ale
   abv: 7.0
 
 - name: Mugshot IPA
   brewery: Jailhouse Brewing Company
-  location: "Hampton, GA"
+  location:
+    city: Hampton
+    state: Georgia
   style: Imperial Pale Ale
   abv: 6.7
 
 - name: Guiness Stout
   brewery: Guiness Ltd.
-  location: "Dublin, Ireland"
+  location:
+    city: Dublin
+    state: Ireland
   style: Stout
   abv: 4.2
 
 - name: Ranger IPA
   brewery: New Belgium Brewing
-  location: "Fort Collins, CO"
+  location:
+    city: Fort Collins
+    state: Colorado
   style: Imperial Pale Ale
   abv: 6.5
-  
+
 - name: Sierra Nevada Pale Ale
   brewery: Sierra Nevada Brewing Company
-  location: "Chico, CA"
+  location:
+    city: Chico
+    state: California
   style: Pale Ale
   abv: 5.6
- 
+
 - name: Grapefruit Sculpin
   brewery: Ballast Point Brewing Company
-  location: "San Diego, CA"
+  location:
+    city: San Diego
+    state: California
   style: Imperial Pale Ale
   abv: 7
-  
+
 - name: OMB Dunkel Lager
   brewery: The Olde Mecklenburg Brewery
-  location: "Charlotte, NC"
+  location:
+    city: Charlotte
+    state: North Carolina
   style: Dunkel
   abv: 4.9
 
 - name: Green Flash West Coast IPA
   brewery: Green Flash Brewing Company
-  location: San Diego, CA
+  location: 
+    city: San Diego
+    state: California
   style: Imperial Pale Ale
   abv: 8.1
-  
+
 - name: Hoplanta
   brewery: Red Brick Brewing Company
-  location: Atlanta, GA
+  location: 
+    city: Atlanta
+    state: Georgia
   style: Imperial Pale Ale
   abv: 6.7
 
 - name: Stone IPA
   brewery: Stone Brewing Company
-  location: Escondido, CA
+  location: 
+    city: Escondido
+    state: California
   style: Imperial Pale Ale
   abv: 6.9

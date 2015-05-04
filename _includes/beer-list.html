@@ -9,7 +9,7 @@
     {% if beerInfo.name == beerName %}
     <li class="activity-item {{ beerInfo.style | slugify }}">
       <h3>{{beer.name}}</h3>
-      <p>{{beerInfo.brewery}}, {{beerInfo.location}}</p>
+      <p>{{beerInfo.brewery}}, {{beerInfo.location.city}}, {{beerInfo.location.state}}</p>
       <p>{{beerInfo.style}}, {{beerInfo.abv}}%</p>
     </li>
     {% endif %}

@@ -11,6 +11,20 @@
   $select.change(function() {
     compileTemplate(beers);
   });
+
+  function countProperty(beers, property) {
+    var count = {};
+    $.each(beers, function (i, beer) {
+      var prop = beer[property].toLowerCase();
+
+      if(count.hasOwnProperty(prop)) {
+        count[prop] += 1;
+      } else {
+        count[prop] = 1;
+      }
+    });
+    return count;
+  }
   
   function compileTemplate() {
     var sort = $select.val();
@@ -68,8 +82,9 @@
         return beer.name == el.name;
       });
       beer.style = beerInfo[0].style;
-      beer.abv = beerInfo[0].abv
-      beer.location = beerInfo[0].location;
+      beer.abv = beerInfo[0].abv;
+      beer.city = beerInfo[0].location.city;
+      beer.state = beerInfo[0].location.state;
       beer.brewery = beerInfo[0].brewery;
       beer.styleClass = beerInfo[0].style.replace(/\s+/g, '-').toLowerCase();
     });
@@ -79,6 +94,9 @@
   }
 
   beers = init();
+  var geo = countProperty(beers, 'state');
+  var styles = countProperty(beers, 'style');
+  var brewery = countProperty(beers, 'brewery');
 })();
 
 
