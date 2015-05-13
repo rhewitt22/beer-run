@@ -2,6 +2,14 @@
   distance: 3.8
   type: city
   location: "Atlanta, GA"
+  strava: https://www.strava.com/activities/303338376
+  shoes:
+    brand: Merrel
+
+- date: 5/11/15
+  distance: 3.8
+  type: city
+  location: "Atlanta, GA"
   strava: https://www.strava.com/activities/302725355
   shoes:
     brand: Merrel
