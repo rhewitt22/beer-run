@@ -1,3 +1,11 @@
+- name: Greybeard IPA
+  brewery: Pisgah Brewing Company
+  location:
+    city: Asheville
+    state: North Carolina
+  style: Imperial Pale Ale
+  abv: 6.9
+
 - name: Hopsecutioner
   brewery: Terrapin Beer Company
   location:
