@@ -1,3 +1,35 @@
+- name: Oak Aged Yeti
+  brewery: Great Divide Brewing Company
+  location:
+    city: Denver
+    state: Colorado
+  style: Russian Imperial Stout
+  abv: 9.5
+
+- name: Old Guardian 2010
+  brewery: Stone Brewing Company
+  location:
+    city: Escondido
+    state: California
+  style: Barleywine
+  abv: 11.1
+  
+- name: Krunkles Down Under
+  brewery: Terrapin Beer Company
+  location:
+    city: Athens
+    state: Georgia
+  style: Imperial Pale Ale
+  abv: 6.6
+
+- name: Coors Banquet
+  brewery: Coors Brewing Company
+  location:
+    city: Golden
+    state: Colorado
+  style: Lager
+  abv: 5
+
 - name: Greybeard IPA
   brewery: Pisgah Brewing Company
   location:
