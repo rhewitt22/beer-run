@@ -15,7 +15,8 @@
 .oatmeal-stout,
 .stout,
 .imperial-stout,
-.russian-stout {
+.russian-stout,
+.russian-imperial-stout {
   color: white;
   background-color: #141412;
   background-image: linear-gradient(to right, #141412, lighten(#141412, 20), #141412);
@@ -29,13 +30,14 @@
   background-image: linear-gradient(to right, #511810, lighten(#511810, 20), #511810);
 }
 
-.scotch-ale {
+.scotch-ale,
+.barleywine  {
   color: white;
   background-color: #772004;
   background-image: linear-gradient(to right, #772004, lighten(#772004, 20), #772004);
 }
 
-.dunkel {
+.dunkel{
   color: white;
   background-color: #660f0b;
   background-image: linear-gradient(to right, #660f0b, lighten(#660f0b, 20), #660f0b);
